@@ -1,0 +1,151 @@
+body {
+  font-family: arial, sans-serif;
+  color: #555555;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+.poravnava {
+  width: 100%;
+  text-align: center;
+}
+
+#logo {
+  width: 112px;
+  margin-top: 40px;
+}
+
+#h1 {
+  font-size: 38px;
+  font-weight: 300;
+  margin: 30px 0 15px 0;
+  font-family: 'Open Sans', arial;
+}
+
+#h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0 25px 0;
+  font-family: 'Open Sans', arial;
+}
+
+#prijava {
+  height: 250px;
+  width: 274px;
+  background-color: #f7f7f7;
+  box-shadow: .7px .7px .7px #888888;
+  border-radius: 2px;
+  padding: 40px;
+  margin: 0 auto 25px auto;
+  overflow: hidden;
+}
+
+#prijava img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+input {
+  width: 100%;
+  height: 44px;
+  font-size: 16px;
+  color: #404040;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  box-shadow: .4px .5px .4px #888888;
+  padding: 0 8px;
+  margin: 20px auto 14px auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+input:hover, input:focus {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+}
+
+#gumb {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  border-radius: 3px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+#gumb:hover {
+  background-color: #4787ed;
+  border: 1px solid #2f5bb7;
+}
+
+#prijava div a {
+  color: #427fed;
+  text-decoration: none;
+  float: right;
+}
+
+#prijava div a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#novi {
+  font-size: 14px;
+  color: #427fed;
+  text-decoration: none;
+}
+
+#novi:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#h3 {
+  font-size: 14px;
+  margin: 53px auto 12px auto;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer_left {
+  float:left;
+  margin: 0 0 0 30px;
+}
+
+#footer_left div {
+  display: inline-block;
+  padding-top: 11px;
+  margin: 0 0 0 14px;
+}
+
+#footer_left div a {
+  text-decoration: none;
+  font-size: .85em;
+  color: #737373;
+}
+
+#footer_left div a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+select {
+  float:right;
+  padding: 2px 35px 1px 2px;
+  margin: 10px 35px 0 0;
+}
